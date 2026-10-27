@@ -1,0 +1,82 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.cer
+*.crt
+secrets.json
+credentials.json
+
+# Skill packages and archives
+*.skill
+*.zip
+*.7z
+*.rar
+
+# Windows system files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Windows installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# AI tool personal settings
+.claude/settings.local.json
+
+# Backups and old copies
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Logs and temporary files
+*.log
+[Ll]ogs/
+*.tmp
+*.temp
+*.local
+*.local.md
+
+# PowerShell transcripts and history
+PowerShell_transcript.*
+ConsoleHost_history.txt
+
+# Data files
+*.csv
+*.db
+*.sqlite
+
+# Project runtime files
+ADCleanupTool.settings*.json
